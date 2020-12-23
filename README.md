@@ -5,8 +5,8 @@
 #### 1. 相关连接：
 
 1. github（源码）： https://github.com/Mbwide/DHT11_ToOneNetByMqtt
-2. CSDN：（图文解析）：
-3. Bilibili（视频解析）：
+2. CSDN：（图文解析）：https://blog.csdn.net/ssssadw/article/details/111584510
+3. Bilibili（视频解析）：https://www.bilibili.com/video/BV1Vi4y1w7U1
 
 #### 2. 具体功能：
 
