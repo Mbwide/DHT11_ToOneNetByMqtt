@@ -13,9 +13,9 @@
 
 #define  MQTT_TxData(x)       u2_TxData(x)                                  //串口2负责数据发送
 
-#define  PRODUCTID            "393773"                                      //产品ID
+#define  PRODUCTID            "394499"                                      //产品ID
 #define  PRODUCTID_LEN        strlen(PRODUCTID)                             //产品ID长度
-#define  DEVICEID             "660024974"                                   //设备ID  
+#define  DEVICEID             "661126800"                                   //设备ID  
 #define  DEVICEID_LEN         strlen(DEVICEID)                              //设备ID长度
 #define  AUTHENTICATION       "123456"                                      //鉴权信息  
 #define  AUTHENTICATION_LEN    strlen(AUTHENTICATION)                       //鉴权信息长度
