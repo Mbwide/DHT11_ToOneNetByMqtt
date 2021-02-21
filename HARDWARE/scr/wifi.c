@@ -89,10 +89,11 @@ char WiFi_JoinAP(int timeout)
 	while(timeout--)									   //等待超时时间到0
 	{                                   
 		DelayMs(1000);                             		   //延时1s
-		if(strstr(WiFi_RX_BUF, "WIFI GOT IP\r\n\r\nOK"))   //如果接收到WIFI GOT IP表示成功
+		if(strstr(WiFi_RX_BUF, "OK"))   //如果接收到WIFI GOT IP表示成功
 			break;       						           //主动跳出while循环
 		u1_printf("%d ", timeout);                         //串口输出现在的超时时间
 	}
+	u1_printf("\r\n%s\r\n", WiFi_RX_BUF);
 	u1_printf("\r\n");                             	       //串口输出信息
 	if(timeout <= 0)return 1;                              //如果timeout<=0，说明超时时间到了，也没能收到WIFI GOT IP，返回1
 	return 0;                                              //正确，返回0

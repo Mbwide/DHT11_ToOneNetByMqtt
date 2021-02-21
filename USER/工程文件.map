@@ -1114,42 +1114,42 @@ Image Symbol Table
     i.WiFi_Connect_IoTServer                 0x080034cc   Section        0  wifi.o(i.WiFi_Connect_IoTServer)
     i.WiFi_Connect_Server                    0x080037bc   Section        0  wifi.o(i.WiFi_Connect_Server)
     i.WiFi_JoinAP                            0x08003910   Section        0  wifi.o(i.WiFi_JoinAP)
-    i.WiFi_Reset                             0x080039b4   Section        0  wifi.o(i.WiFi_Reset)
-    i.WiFi_ResetIO_Init                      0x08003a24   Section        0  wifi.o(i.WiFi_ResetIO_Init)
-    i.WiFi_SendCmd                           0x08003a58   Section        0  wifi.o(i.WiFi_SendCmd)
-    i.__ARM_fpclassify                       0x08003acc   Section        0  fpclassify.o(i.__ARM_fpclassify)
-    i._is_digit                              0x08003af4   Section        0  __printf_wp.o(i._is_digit)
-    i._sys_exit                              0x08003b02   Section        0  usart1.o(i._sys_exit)
-    i.main                                   0x08003b08   Section        0  main.o(i.main)
-    i.u1_printf                              0x08004094   Section        0  usart1.o(i.u1_printf)
-    i.u2_TxData                              0x080040f0   Section        0  usart2.o(i.u2_TxData)
-    i.u2_printf                              0x08004130   Section        0  usart2.o(i.u2_printf)
-    locale$$code                             0x0800418c   Section       44  lc_numeric_c.o(locale$$code)
-    locale$$code                             0x080041b8   Section       44  lc_ctype_c.o(locale$$code)
-    x$fpl$printf1                            0x080041e4   Section        4  printf1.o(x$fpl$printf1)
-    .constdata                               0x080041e8   Section       17  __printf_flags_ss_wp.o(.constdata)
-    x$fpl$usenofp                            0x080041e8   Section        0  usenofp.o(x$fpl$usenofp)
-    maptable                                 0x080041e8   Data          17  __printf_flags_ss_wp.o(.constdata)
-    .constdata                               0x080041fc   Section        8  _printf_wctomb.o(.constdata)
-    initial_mbstate                          0x080041fc   Data           8  _printf_wctomb.o(.constdata)
-    .constdata                               0x08004204   Section       40  _printf_hex_int_ll_ptr.o(.constdata)
-    uc_hextab                                0x08004204   Data          20  _printf_hex_int_ll_ptr.o(.constdata)
-    lc_hextab                                0x08004218   Data          20  _printf_hex_int_ll_ptr.o(.constdata)
-    .constdata                               0x0800422c   Section      148  bigflt0.o(.constdata)
-    tenpwrs_x                                0x0800422c   Data          60  bigflt0.o(.constdata)
-    tenpwrs_i                                0x08004268   Data          64  bigflt0.o(.constdata)
-    .conststring                             0x080042c0   Section       30  main.o(.conststring)
-    locale$$data                             0x08004300   Section       28  lc_numeric_c.o(locale$$data)
-    __lcnum_c_name                           0x08004304   Data           2  lc_numeric_c.o(locale$$data)
-    __lcnum_c_start                          0x0800430c   Data           0  lc_numeric_c.o(locale$$data)
-    __lcnum_c_point                          0x08004318   Data           0  lc_numeric_c.o(locale$$data)
-    __lcnum_c_thousands                      0x0800431a   Data           0  lc_numeric_c.o(locale$$data)
-    __lcnum_c_grouping                       0x0800431b   Data           0  lc_numeric_c.o(locale$$data)
-    locale$$data                             0x0800431c   Section      272  lc_ctype_c.o(locale$$data)
-    __lcnum_c_end                            0x0800431c   Data           0  lc_numeric_c.o(locale$$data)
-    __lcctype_c_name                         0x08004320   Data           2  lc_ctype_c.o(locale$$data)
-    __lcctype_c_start                        0x08004328   Data           0  lc_ctype_c.o(locale$$data)
-    __lcctype_c_end                          0x0800442c   Data           0  lc_ctype_c.o(locale$$data)
+    i.WiFi_Reset                             0x080039b0   Section        0  wifi.o(i.WiFi_Reset)
+    i.WiFi_ResetIO_Init                      0x08003a20   Section        0  wifi.o(i.WiFi_ResetIO_Init)
+    i.WiFi_SendCmd                           0x08003a54   Section        0  wifi.o(i.WiFi_SendCmd)
+    i.__ARM_fpclassify                       0x08003ac8   Section        0  fpclassify.o(i.__ARM_fpclassify)
+    i._is_digit                              0x08003af0   Section        0  __printf_wp.o(i._is_digit)
+    i._sys_exit                              0x08003afe   Section        0  usart1.o(i._sys_exit)
+    i.main                                   0x08003b04   Section        0  main.o(i.main)
+    i.u1_printf                              0x08004090   Section        0  usart1.o(i.u1_printf)
+    i.u2_TxData                              0x080040ec   Section        0  usart2.o(i.u2_TxData)
+    i.u2_printf                              0x0800412c   Section        0  usart2.o(i.u2_printf)
+    locale$$code                             0x08004188   Section       44  lc_numeric_c.o(locale$$code)
+    locale$$code                             0x080041b4   Section       44  lc_ctype_c.o(locale$$code)
+    x$fpl$printf1                            0x080041e0   Section        4  printf1.o(x$fpl$printf1)
+    .constdata                               0x080041e4   Section       17  __printf_flags_ss_wp.o(.constdata)
+    x$fpl$usenofp                            0x080041e4   Section        0  usenofp.o(x$fpl$usenofp)
+    maptable                                 0x080041e4   Data          17  __printf_flags_ss_wp.o(.constdata)
+    .constdata                               0x080041f8   Section        8  _printf_wctomb.o(.constdata)
+    initial_mbstate                          0x080041f8   Data           8  _printf_wctomb.o(.constdata)
+    .constdata                               0x08004200   Section       40  _printf_hex_int_ll_ptr.o(.constdata)
+    uc_hextab                                0x08004200   Data          20  _printf_hex_int_ll_ptr.o(.constdata)
+    lc_hextab                                0x08004214   Data          20  _printf_hex_int_ll_ptr.o(.constdata)
+    .constdata                               0x08004228   Section      148  bigflt0.o(.constdata)
+    tenpwrs_x                                0x08004228   Data          60  bigflt0.o(.constdata)
+    tenpwrs_i                                0x08004264   Data          64  bigflt0.o(.constdata)
+    .conststring                             0x080042bc   Section       30  main.o(.conststring)
+    locale$$data                             0x080042fc   Section       28  lc_numeric_c.o(locale$$data)
+    __lcnum_c_name                           0x08004300   Data           2  lc_numeric_c.o(locale$$data)
+    __lcnum_c_start                          0x08004308   Data           0  lc_numeric_c.o(locale$$data)
+    __lcnum_c_point                          0x08004314   Data           0  lc_numeric_c.o(locale$$data)
+    __lcnum_c_thousands                      0x08004316   Data           0  lc_numeric_c.o(locale$$data)
+    __lcnum_c_grouping                       0x08004317   Data           0  lc_numeric_c.o(locale$$data)
+    locale$$data                             0x08004318   Section      272  lc_ctype_c.o(locale$$data)
+    __lcnum_c_end                            0x08004318   Data           0  lc_numeric_c.o(locale$$data)
+    __lcctype_c_name                         0x0800431c   Data           2  lc_ctype_c.o(locale$$data)
+    __lcctype_c_start                        0x08004324   Data           0  lc_ctype_c.o(locale$$data)
+    __lcctype_c_end                          0x08004428   Data           0  lc_ctype_c.o(locale$$data)
     .data                                    0x20000000   Section       24  main.o(.data)
     .data                                    0x20000018   Section        4  delay.o(.data)
     fac_us                                   0x20000018   Data           1  delay.o(.data)
@@ -1488,24 +1488,24 @@ Image Symbol Table
     Usart2_Init                              0x08003415   Thumb Code   176  usart2.o(i.Usart2_Init)
     WiFi_Connect_IoTServer                   0x080034cd   Thumb Code   232  wifi.o(i.WiFi_Connect_IoTServer)
     WiFi_Connect_Server                      0x080037bd   Thumb Code   190  wifi.o(i.WiFi_Connect_Server)
-    WiFi_JoinAP                              0x08003911   Thumb Code    88  wifi.o(i.WiFi_JoinAP)
-    WiFi_Reset                               0x080039b5   Thumb Code    88  wifi.o(i.WiFi_Reset)
-    WiFi_ResetIO_Init                        0x08003a25   Thumb Code    48  wifi.o(i.WiFi_ResetIO_Init)
-    WiFi_SendCmd                             0x08003a59   Thumb Code    86  wifi.o(i.WiFi_SendCmd)
-    __ARM_fpclassify                         0x08003acd   Thumb Code    40  fpclassify.o(i.__ARM_fpclassify)
-    _is_digit                                0x08003af5   Thumb Code    14  __printf_wp.o(i._is_digit)
-    _sys_exit                                0x08003b03   Thumb Code     4  usart1.o(i._sys_exit)
-    main                                     0x08003b09   Thumb Code   828  main.o(i.main)
-    u1_printf                                0x08004095   Thumb Code    84  usart1.o(i.u1_printf)
-    u2_TxData                                0x080040f1   Thumb Code    58  usart2.o(i.u2_TxData)
-    u2_printf                                0x08004131   Thumb Code    84  usart2.o(i.u2_printf)
-    _get_lc_numeric                          0x0800418d   Thumb Code    44  lc_numeric_c.o(locale$$code)
-    _get_lc_ctype                            0x080041b9   Thumb Code    44  lc_ctype_c.o(locale$$code)
-    _printf_fp_dec                           0x080041e5   Thumb Code     4  printf1.o(x$fpl$printf1)
-    __I$use$fp                               0x080041e8   Number         0  usenofp.o(x$fpl$usenofp)
-    Region$$Table$$Base                      0x080042e0   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x08004300   Number         0  anon$$obj.o(Region$$Table)
-    __ctype                                  0x08004329   Data           0  lc_ctype_c.o(locale$$data)
+    WiFi_JoinAP                              0x08003911   Thumb Code    96  wifi.o(i.WiFi_JoinAP)
+    WiFi_Reset                               0x080039b1   Thumb Code    88  wifi.o(i.WiFi_Reset)
+    WiFi_ResetIO_Init                        0x08003a21   Thumb Code    48  wifi.o(i.WiFi_ResetIO_Init)
+    WiFi_SendCmd                             0x08003a55   Thumb Code    86  wifi.o(i.WiFi_SendCmd)
+    __ARM_fpclassify                         0x08003ac9   Thumb Code    40  fpclassify.o(i.__ARM_fpclassify)
+    _is_digit                                0x08003af1   Thumb Code    14  __printf_wp.o(i._is_digit)
+    _sys_exit                                0x08003aff   Thumb Code     4  usart1.o(i._sys_exit)
+    main                                     0x08003b05   Thumb Code   828  main.o(i.main)
+    u1_printf                                0x08004091   Thumb Code    84  usart1.o(i.u1_printf)
+    u2_TxData                                0x080040ed   Thumb Code    58  usart2.o(i.u2_TxData)
+    u2_printf                                0x0800412d   Thumb Code    84  usart2.o(i.u2_printf)
+    _get_lc_numeric                          0x08004189   Thumb Code    44  lc_numeric_c.o(locale$$code)
+    _get_lc_ctype                            0x080041b5   Thumb Code    44  lc_ctype_c.o(locale$$code)
+    _printf_fp_dec                           0x080041e1   Thumb Code     4  printf1.o(x$fpl$printf1)
+    __I$use$fp                               0x080041e4   Number         0  usenofp.o(x$fpl$usenofp)
+    Region$$Table$$Base                      0x080042dc   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x080042fc   Number         0  anon$$obj.o(Region$$Table)
+    __ctype                                  0x08004325   Data           0  lc_ctype_c.o(locale$$data)
     cmdLED_On                                0x20000000   Data           4  main.o(.data)
     cmdLED_Off                               0x20000004   Data           4  main.o(.data)
     cmdDHT11_On                              0x20000008   Data           4  main.o(.data)
@@ -1559,9 +1559,9 @@ Memory Map of the image
 
   Image Entry point : 0x08000279
 
-  Load Region LR_1 (Base: 0x08000000, Size: 0x000044c0, Max: 0xffffffff, ABSOLUTE)
+  Load Region LR_1 (Base: 0x08000000, Size: 0x000044bc, Max: 0xffffffff, ABSOLUTE)
 
-    Execution Region ER_RO (Base: 0x08000000, Size: 0x0000442c, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_RO (Base: 0x08000000, Size: 0x00004428, Max: 0xffffffff, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -1775,32 +1775,32 @@ Memory Map of the image
     0x08003414   0x000000b8   Code   RO          313    i.Usart2_Init       usart2.o
     0x080034cc   0x000002f0   Code   RO          393    i.WiFi_Connect_IoTServer  wifi.o
     0x080037bc   0x00000154   Code   RO          394    i.WiFi_Connect_Server  wifi.o
-    0x08003910   0x000000a4   Code   RO          395    i.WiFi_JoinAP       wifi.o
-    0x080039b4   0x00000070   Code   RO          396    i.WiFi_Reset        wifi.o
-    0x08003a24   0x00000034   Code   RO          397    i.WiFi_ResetIO_Init  wifi.o
-    0x08003a58   0x00000074   Code   RO          398    i.WiFi_SendCmd      wifi.o
-    0x08003acc   0x00000028   Code   RO         1975    i.__ARM_fpclassify  m_ws.l(fpclassify.o)
-    0x08003af4   0x0000000e   Code   RO         1797    i._is_digit         c_w.l(__printf_wp.o)
-    0x08003b02   0x00000004   Code   RO          273    i._sys_exit         usart1.o
-    0x08003b06   0x00000002   PAD
-    0x08003b08   0x0000058c   Code   RO            1    i.main              main.o
-    0x08004094   0x0000005c   Code   RO          275    i.u1_printf         usart1.o
-    0x080040f0   0x00000040   Code   RO          314    i.u2_TxData         usart2.o
-    0x08004130   0x0000005c   Code   RO          315    i.u2_printf         usart2.o
-    0x0800418c   0x0000002c   Code   RO         1962    locale$$code        c_w.l(lc_numeric_c.o)
-    0x080041b8   0x0000002c   Code   RO         1983    locale$$code        c_w.l(lc_ctype_c.o)
-    0x080041e4   0x00000004   Code   RO         1898    x$fpl$printf1       fz_ws.l(printf1.o)
-    0x080041e8   0x00000000   Code   RO         1974    x$fpl$usenofp       fz_ws.l(usenofp.o)
-    0x080041e8   0x00000011   Data   RO         1805    .constdata          c_w.l(__printf_flags_ss_wp.o)
-    0x080041f9   0x00000003   PAD
-    0x080041fc   0x00000008   Data   RO         1845    .constdata          c_w.l(_printf_wctomb.o)
-    0x08004204   0x00000028   Data   RO         1874    .constdata          c_w.l(_printf_hex_int_ll_ptr.o)
-    0x0800422c   0x00000094   Data   RO         1937    .constdata          c_w.l(bigflt0.o)
-    0x080042c0   0x0000001e   Data   RO            2    .conststring        main.o
-    0x080042de   0x00000002   PAD
-    0x080042e0   0x00000020   Data   RO         2105    Region$$Table       anon$$obj.o
-    0x08004300   0x0000001c   Data   RO         1961    locale$$data        c_w.l(lc_numeric_c.o)
-    0x0800431c   0x00000110   Data   RO         1982    locale$$data        c_w.l(lc_ctype_c.o)
+    0x08003910   0x000000a0   Code   RO          395    i.WiFi_JoinAP       wifi.o
+    0x080039b0   0x00000070   Code   RO          396    i.WiFi_Reset        wifi.o
+    0x08003a20   0x00000034   Code   RO          397    i.WiFi_ResetIO_Init  wifi.o
+    0x08003a54   0x00000074   Code   RO          398    i.WiFi_SendCmd      wifi.o
+    0x08003ac8   0x00000028   Code   RO         1975    i.__ARM_fpclassify  m_ws.l(fpclassify.o)
+    0x08003af0   0x0000000e   Code   RO         1797    i._is_digit         c_w.l(__printf_wp.o)
+    0x08003afe   0x00000004   Code   RO          273    i._sys_exit         usart1.o
+    0x08003b02   0x00000002   PAD
+    0x08003b04   0x0000058c   Code   RO            1    i.main              main.o
+    0x08004090   0x0000005c   Code   RO          275    i.u1_printf         usart1.o
+    0x080040ec   0x00000040   Code   RO          314    i.u2_TxData         usart2.o
+    0x0800412c   0x0000005c   Code   RO          315    i.u2_printf         usart2.o
+    0x08004188   0x0000002c   Code   RO         1962    locale$$code        c_w.l(lc_numeric_c.o)
+    0x080041b4   0x0000002c   Code   RO         1983    locale$$code        c_w.l(lc_ctype_c.o)
+    0x080041e0   0x00000004   Code   RO         1898    x$fpl$printf1       fz_ws.l(printf1.o)
+    0x080041e4   0x00000000   Code   RO         1974    x$fpl$usenofp       fz_ws.l(usenofp.o)
+    0x080041e4   0x00000011   Data   RO         1805    .constdata          c_w.l(__printf_flags_ss_wp.o)
+    0x080041f5   0x00000003   PAD
+    0x080041f8   0x00000008   Data   RO         1845    .constdata          c_w.l(_printf_wctomb.o)
+    0x08004200   0x00000028   Data   RO         1874    .constdata          c_w.l(_printf_hex_int_ll_ptr.o)
+    0x08004228   0x00000094   Data   RO         1937    .constdata          c_w.l(bigflt0.o)
+    0x080042bc   0x0000001e   Data   RO            2    .conststring        main.o
+    0x080042da   0x00000002   PAD
+    0x080042dc   0x00000020   Data   RO         2105    Region$$Table       anon$$obj.o
+    0x080042fc   0x0000001c   Data   RO         1961    locale$$data        c_w.l(lc_numeric_c.o)
+    0x08004318   0x00000110   Data   RO         1982    locale$$data        c_w.l(lc_ctype_c.o)
 
 
     Execution Region ER_RW (Base: 0x20000000, Size: 0x00000094, Max: 0xffffffff, ABSOLUTE)
@@ -1837,30 +1837,30 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       168         50          0          0          0        636   control.o
+       168         50          0          0          0        624   control.o
          0          0          0          0          0         32   core_cm3.o
-       220         26          0          4          0       1729   delay.o
-       434         22          0          0          0       3520   dht11.o
-        84         14          0          0          0       1382   led.o
-      1420        598         30         24          0     254083   main.o
-       172         22          0          0          0       1993   misc.o
-      1900        372          0         68       5312       7744   mqtt.o
-        64         26        304          0       1536        812   startup_stm32f10x_hd.o
-       314          0          0          0          0       4140   stm32f10x_gpio.o
-       670        142          0          0          0       6384   stm32f10x_it.o
-       340         44          0         20          0       5480   stm32f10x_rcc.o
-       738        106          0          0          0       4760   stm32f10x_tim.o
-       572         28          0          0          0       5511   stm32f10x_usart.o
-       328         28          0         20          0       2197   system_stm32f10x.o
-       118          0          0          0          0        586   timer2.o
-       240         10          0          0          0       1171   timer3.o
-       112          6          0          0          0        684   timer4.o
-       224         18          0          0        256       4198   usart1.o
-       340         22          0          8       2048       2720   usart2.o
-      1536        804          0          1          0       4101   wifi.o
+       220         26          0          4          0       1693   delay.o
+       434         22          0          0          0       3468   dht11.o
+        84         14          0          0          0       1354   led.o
+      1420        598         30         24          0     254003   main.o
+       172         22          0          0          0       1953   misc.o
+      1900        372          0         68       5312       7640   mqtt.o
+        64         26        304          0       1536        800   startup_stm32f10x_hd.o
+       314          0          0          0          0       4088   stm32f10x_gpio.o
+       670        142          0          0          0       6268   stm32f10x_it.o
+       340         44          0         20          0       5424   stm32f10x_rcc.o
+       738        106          0          0          0       4688   stm32f10x_tim.o
+       572         28          0          0          0       5443   stm32f10x_usart.o
+       328         28          0         20          0       2157   system_stm32f10x.o
+       118          0          0          0          0        578   timer2.o
+       240         10          0          0          0       1155   timer3.o
+       112          6          0          0          0        676   timer4.o
+       224         18          0          0        256       4150   usart1.o
+       340         22          0          8       2048       2676   usart2.o
+      1532        792          0          1          0       4045   wifi.o
 
     ----------------------------------------------------------------------
-     10016       2338        368        148       9156     313863   Object Totals
+     10012       2326        368        148       9156     312915   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         22          0          2          3          4          0   (incl. Padding)
 
@@ -1973,15 +1973,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     16568       2596        884        148       9252     311899   Grand Totals
-     16568       2596        884        148       9252     311899   ELF Image Totals
-     16568       2596        884        148          0          0   ROM Totals
+     16564       2584        884        148       9252     310951   Grand Totals
+     16564       2584        884        148       9252     310951   ELF Image Totals
+     16564       2584        884        148          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                17452 (  17.04kB)
+    Total RO  Size (Code + RO Data)                17448 (  17.04kB)
     Total RW  Size (RW Data + ZI Data)              9400 (   9.18kB)
-    Total ROM Size (Code + RO Data + RW Data)      17600 (  17.19kB)
+    Total ROM Size (Code + RO Data + RW Data)      17596 (  17.18kB)
 
 ==============================================================================
 
